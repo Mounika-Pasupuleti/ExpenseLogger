@@ -1,0 +1,41 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F8FAFC;
+  color: #333;
+}
+
+/* Button Styling */
+button, .btn {
+  background: #6366F1;
+  color: white; 
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+button:hover, .btn:hover {
+  background: #4F46E5;
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 24px;
+  background: #0B1120;
+  color: #E5E7EB;
+  margin-top: 40px;
+  font-size: 14px;
+}
